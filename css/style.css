@@ -42,9 +42,10 @@ header {
 }
 
 .logo img {
-    width: 120px;
+    width: 80px;
     max-width: 100%;
     height: auto;
+    border-radius: 50%;
 }
 
 .navbar {
@@ -130,13 +131,15 @@ section {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
+    margin-left: 125px;
 }
 
 .home-img img {
     padding-top: 100px;
     height: auto;
-    width: 100%;
+    width: 60%;
     object-fit: contain;
+    
 }
 
 .home-text h1 {
@@ -206,6 +209,7 @@ section {
 
 .center-text {
     text-align: center;
+    margin-top: 200px;
 }
 
 .center-text strong {
@@ -270,7 +274,8 @@ section {
 
 .history-img img {
     height: auto;
-    width: 100%
+    width: 65%;
+    margin-left: 50px;
 }
 
 .history-text strong {
